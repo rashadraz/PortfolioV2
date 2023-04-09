@@ -50,15 +50,15 @@ const about = () => {
 								About Me
 							</h2>
 							<p className="font-medium">
-							Hi, I'm Rashad, a web developer with a passion for creating beautiful and functional digital experiences. With 5 months of experience, I have self-learned HTML, CSS, JavaScript, jQuery, Python (base), PHP (base), ReactJS, GitHub, Tailwind CSS, Bootstrap, and much more. I'm always looking for new and innovative ways to bring my clients' visions to life.
+							Hi, I&apos;m Rashad, a web developer with a passion for creating beautiful and functional digital experiences. With 5 months of experience, I have self-learned HTML, CSS, JavaScript, jQuery,  PHP , ReactJS, GitHub, Tailwind CSS, Bootstrap, and much more. I&apos;m always looking for new and innovative ways to bring my client&apos;s visions to life.
 							</p>
 							<p className="my-4 font-medium">
 								I believe that Development is about more than just making things look
-								pretty – it's about solving problems and creating intuitive,
+								pretty  it&apos;s about solving problems and creating intuitive,
 								enjoyable experiences for users.{" "}
 							</p>
 							<p className="font-medium">
-							Whether I'm programming a website, developing a mobile app, or working on any other software project, I am committed to delivering excellence in project . With my passion for programming and attention to detail, I look forward to bringing my skills to your next project and helping you achieve your goals.
+							Whether I&apos;m programming a website, developing a mobile app, or working on any other software project, I am committed to delivering excellence in project . With my passion for programming and attention to detail, I look forward to bringing my skills to your next project and helping you achieve your goals.
 							</p>
 						</div>
 						<div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8">
