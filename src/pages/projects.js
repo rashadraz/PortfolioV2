@@ -4,7 +4,15 @@ import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import project1 from "../../public/images/projects/20score.png";
+import project1 from "../../public/images/projects/xcrypto_4_ImageSaizeReducer.png";
+import project2 from "../../public/images/projects/CHROMETAB.png";
+import project3 from "../../public/images/projects/tictactoe.png";
+import project4 from "../../public/images/projects/netflixclone.png";
+import project5 from "../../public/images/projects/nextjsapp.png";
+import project6 from "../../public/images/projects/chromeExtention.png";
+import project7 from "../../public/images/projects/nextjstodoapp.png";
+import project8 from "../../public/images/projects/burgersite.png";
+import project9 from "../../public/images/projects/random password.png";
 import TransitionEffect from "@/components/TransitionEffect";
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
@@ -112,61 +120,87 @@ function projects() {
 					<div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
 						<div className="col-span-12">
 							<FeaturedProject
-								title="Crypto Screener Application"
+								title="Xcrypto"
 								img={project1}
-								github="/"
-								summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
+								github="https://x-cryptorashad.vercel.app/"
+								summary="A feature-rich Crypto Details App using React, Tailwind CSS, Context API, React Router and Recharts. 
                                     It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
                                     local currency."
-								link="/"
+								link="https://x-cryptorashad.vercel.app/"
 								type="Featured Project"
 							/>
 						</div>
 						<div className="col-span-6 sm:col-span-12">
 							<Project
-								title="Crypto Screener Application"
-								img={project1}
-								github="/"
-								link="/"
-								type="Featured Project"
+								title="Minimal Search Tab"
+								img={project2}
+								github="https://rashadraz.github.io/MinamalTab/"
+								link="https://rashadraz.github.io/MinamalTab/"
+								type="Small Project"
 							/>
 						</div>
 						<div className="col-span-6 sm:col-span-12">
 							<Project
-								title="Crypto Screener Application"
-								img={project1}
-								github="/"
-								link="/"
-								type="Featured Project"
+								title="Tic Tac Toe [React]"
+								img={project3}
+								github="https://polite-macaron-e63e9f.netlify.app/"
+								link="https://polite-macaron-e63e9f.netlify.app/"
+								type="Small Project"
 							/>
 						</div>
 						<div className="col-span-12 ">
 							<FeaturedProject
-								title="Crypto Screener Application"
-								img={project1}
-								github="/"
-								summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                                    It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                                    local currency."
-								link="/"
+								title="Netflix Clone Application"
+								img={project4}
+								github="https://rashadnetflix.netlify.app/"
+								summary="A Netflix clone using movies API used technologies are React , Material UI , React Router . You can find the trending Movies and Series in the website all though this website dont play movies but you will be able to watch the Trailer of Them "
+								link="https://rashadnetflix.netlify.app/"
 								type="Featured Project"
 							/>
 						</div>
 						<div className="col-span-6 sm:col-span-12">
 							<Project
-								title="Crypto Screener Application"
-								img={project1}
-								github="/"
-								link="/"
+								title="Next JS Weather APP"
+								img={project5}
+								github="https://nextjsweathernew.vercel.app/"
+								link="https://nextjsweathernew.vercel.app/"
+								type="Small Project"
+							/>
+						</div>
+						<div className="col-span-6 sm:col-span-12">
+							<Project
+								title="Restaurant UI Design"
+								img={project8}
+								github="https://react-burger-site.vercel.app/"
+								link="https://react-burger-site.vercel.app/"
+								type="Small Project"
+							/>
+						</div>
+						<div className="col-span-12 ">
+							<FeaturedProject
+								title="Web Extension"
+								img={project6}
+								github="https://github.com/rashadraz/ChromeExtension"
+								summary="A Extension to Save Current Tab and Other Details to local storage . You can save the current tab and also type and save "
+								link="https://github.com/rashadraz/ChromeExtension"
 								type="Featured Project"
 							/>
 						</div>
 						<div className="col-span-6 sm:col-span-12">
 							<Project
-								title="Crypto Screener Application"
-								img={project1}
-								github="/"
-								link="/"
+								title="Next JS Todo APP"
+								img={project7}
+								github="https://nextjstodoapp-sand.vercel.app/"
+								link="https://nextjstodoapp-sand.vercel.app/"
+								type="Small Project"
+							/>
+						</div>
+						<div className="col-span-6 sm:col-span-12">
+							<Project
+								title="Random Password Generator"
+								img={project9}
+								github="https://rashadraz.github.io/RandomPasswordGenerator/"
+								link="https://rashadraz.github.io/RandomPasswordGenerator/"
 								type="Featured Project"
 							/>
 						</div>

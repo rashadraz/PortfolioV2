@@ -13,7 +13,7 @@ const Footer = () => {
 					<span className="px-1 text-2xl text-primary dark:text-primaryDark">
 						&#9825;
 					</span>{" "}
-					<Link href={"/"} className="underline underline-offset-2">
+					<Link href={"https://www.instagram.com/rxshadraz/"} className="underline underline-offset-2">
 						{" "}
 						By Rashad
 					</Link>
